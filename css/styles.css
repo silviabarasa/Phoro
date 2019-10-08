@@ -4,8 +4,11 @@ body {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     background-size: cover;
     
 }
-  .login{
-      float: right;
+.login{
+      color: whitesmoke;
+      font-size: 20px;
+      padding-left: 400px;
+
   }
   img {
     padding-top: 9%;
@@ -23,4 +26,18 @@ h2 {
 p {
     font-size: 20px;
     color: white;
+    text-align: center;
+}
+.navbar {
+    background-color: gray;
+}
+nav>a {
+    float: center;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 20px;
+}
+nav>a:hover {
+    color: black;
+    text-decoration-line: none;
 }
