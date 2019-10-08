@@ -10,7 +10,7 @@ body {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       padding-left: 400px;
 
   }
-  img {
+img {
     padding-top: 9%;
     width: 70vh;
     height: 60vh;
@@ -30,6 +30,7 @@ p {
 }
 .navbar {
     background-color: gray;
+    position: fixed;
 }
 nav>a {
     float: center;
@@ -40,4 +41,10 @@ nav>a {
 nav>a:hover {
     color: black;
     text-decoration-line: none;
+}
+section {
+    padding-top: 30px
+}
+section#about {
+    padding-bottom: 1000px;
 }
