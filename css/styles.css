@@ -1,0 +1,8 @@
+body {
+    background-image: url("../images/image6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login{
+      float: right;
+  }
