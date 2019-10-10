@@ -24,9 +24,25 @@ h2 {
     text-decoration: underline;
     font-family: Unica One;
 }
+h3 {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+  text-decoration: underline;
+  font-family: Unica One;
+}
+h4 {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  text-decoration-line: none;
+  font-family: Unica One;
+}
+
 input {
   font-size: 15px;
-  color: white;
+  color: black;
   text-align: center;
   padding-top: 3%;
   text-decoration: underline;
@@ -36,6 +52,7 @@ p {
     font-size: 20px;
     color: white;
     text-align: center;
+    font-family: Unica One;
 }
 .navbar {
     background-color: gray;
