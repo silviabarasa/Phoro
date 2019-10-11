@@ -2,7 +2,7 @@ body {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
      url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    overflow-x:hidden;
 }
 .login{
       color: whitesmoke;
@@ -177,6 +177,7 @@ input[type=text], input[type=password] {
       clear: both;
       display: table;
     }
+    
     
     /* Change styles for cancel button and signup button on extra small screens */
     @media screen and (max-width: 300px) {
