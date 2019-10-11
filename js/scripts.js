@@ -59,4 +59,83 @@ function checkForm(form)
       alert("You entered a valid password: " + form.pwd1.value);
       return true;
     }
+    $(document).ready(function() { 
+      $(".port").click(function(){
+        $("#team").click();
+      });
+    $(".phoro").hover(function(){
+      $(".jpg").css({"opacity":"0.2","transition":"1s"});
+      $("#team").show();
+  },
+     function(){
+    $(".jpg").css("opacity","1");
+    $("#team").hide();
+  });
+  $(".phoro1").hover(function(){
+    $(".jpg1").css({"opacity":"0.2","transition":"1s"});
+    $("#team1").show();
+},
+   function(){
+  $(".jpg1").css("opacity","1");
+  $("#team1").hide();
   
+  $(".phoro2").hover(function(){
+    $(".jpg2").css({"opacity":"0.2","transition":"1s"});
+    $("#team2").show();
+},
+   function(){
+  $(".jpg2").css("opacity","1");
+  $("#team2").hide();
+   });
+
+  $(".phoro3").hover(function(){
+    $(".jpg3").css({"opacity":"0.2","transition":"1s"});
+    $("#team3").show();
+},
+   function(){
+  $(".jpg3").css("opacity","1");
+  $("#team3").hide();
+   });
+   $(".phoro4").hover(function(){
+    $(".jpg4").css({"opacity":"0.2","transition":"1s"});
+    $("#team4").show();
+},
+   function(){
+  $(".jpg4").css("opacity","1");
+  $("#team4").hide();
+   });
+   $(".phoro5").hover(function(){
+    $(".jpg5").css({"opacity":"0.2","transition":"1s"});
+    $("#team5").show();
+},
+   function(){
+  $(".jpg5").css("opacity","1");
+  $("#team5").hide();
+   });
+   $(".phoro6").hover(function(){
+    $(".jpg6").css({"opacity":"0.2","transition":"1s"});
+    $("#team6").show();
+},
+   function(){
+  $(".jpg6").css("opacity","1");
+  $("#team6").hide();
+   });
+   $(".phoro7").hover(function(){
+    $(".jpg7").css({"opacity":"0.2","transition":"1s"});
+    $("#team7").show();
+},
+   function(){
+  $(".jpg7").css("opacity","1");
+  $("#team7").hide();
+   });
+   $(".phoro8").hover(function(){
+    $(".jpg8").css({"opacity":"0.2","transition":"1s"});
+    $("#team8").show();
+},
+   function(){
+  $(".jpg8").css("opacity","1");
+  $("#team8").hide();
+   });
+});
+});
+
