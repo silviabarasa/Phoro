@@ -1,9 +1,50 @@
-img {
-    padding-top: 9%;
-    width: 70vh;
-    height: 60vh;
-    padding-left: 0;
+body{
+overflow-x: hidden; 
 }
+.port h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.port .row{
+    /* display: flex; */
+    justify-content: space-around;
+    /* margin-right: 100px; */
+    /* margin-left:100px; */
+}
+.port img{
+    display:block;
+}
+.port p{
+  font-family: 'Farro', sans-serif;
+  text-align: center;
+  display: none;
+  position: absolute;
+  font-size: 30px;
+  padding-top: 80px;
+  padding-left: 40px;
+
+}
+a{
+    display:none;
+}
+.port img, p{
+    cursor: pointer;
+}
+img {
+    /* padding: 3%; */
+    width: 50vh;
+    height: 50vh;
+    padding-top:15px;
+}
+.photo{
+    display: flex;
+    flex-direction:row; 
+border: 3px;
+}
+
+
 nav>a {
     float: center;
     color: black;
